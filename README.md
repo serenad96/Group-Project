@@ -3,8 +3,9 @@
 The theme of the project will be a basic text editor similar to Notepad.
 
 ## Features
-The user will be able to enter text, save their entry to a .txt file, open a .txt file for editing, and change the text properties. </br>
+The program will consist of an Array of Strings. The user will be able to view these in a textArea and change their values</br>
 There will be JavaFX controls for a textArea, comboBoxes, and Labels.
+There will be an abstract class for TextFile with subclasses TextProperties and FileLocation
 
 ## UML Diagram
 
