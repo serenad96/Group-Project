@@ -8,6 +8,8 @@ The derived classes will have different properties such as type, roast, decaf, e
 There will be a GUI using Labels and Buttons to select your options.
 
 ## UML Diagram
+In the included files
 
 ## GUI Sketch
+Starts with a main screen that asks if you want coffee or tea. From there you can decide what type you would like.
 
