@@ -24,4 +24,8 @@ The program shows the menu of what the user can add to their coffee. After the u
 
 Issues and future work:
 
-The price calculation is not working as of now, so when a choice is pressed the total is not displaying. We are not sure how to fix it. We would like for the total price of the coffee to be displayed. To improve our program would like to add more choices for the user.
+The price calculation is not working as of now, so when a choice is pressed the total is not displaying. We used the "on action" feature in SceneBuilder to assign each button to a method. However, it returns a "NullPointerException" error once the buttons are clicked. We are not sure how to fix it. We would like for the total price of the coffee to be displayed. To improve our program would like to add more choices for the user.
+
+Project Requirements:
+
+We were not able to fufill every project requirement with the way we handled this program. There is no polymorphic call or abstract class.
