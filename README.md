@@ -16,11 +16,11 @@ Starts with a main screen that asks if you want coffee or tea. From there you ca
 ## Final Project Submission
 Theme:
 
-The theme of the project will be a Cafe Simulator where the user can decide what they would like in their coffee and display the total of all the things they decided.
+The theme of the project will be a Cafe Simulator where the user can decide what they would like in their coffee and display the total of all the choices they have decided.
 
 Feature List:
 
-The program shows the menu of what the user can add to their coffee. AFter the user adds all the choices the total price of the coffee is calculated and displayed.
+The program shows the menu of what the user can add to their coffee. After the user adds all the choices the total price of the coffee is calculated and displayed.
 
 Issues and future work:
 
