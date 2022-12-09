@@ -18,7 +18,7 @@ Theme:
 
 The theme of the project will be a Cafe Simulator where the user can choose how they would like their coffee. The total price of their drink will be displayed once they have chosen all their selections. 
 
-## Feature List:
+Feature List:
 
 The program shows the menu of what the user can add to their coffee. The user will first select the size of their coffee, then select either iced or hot and lastly choose the type of dairy they would like. After the user selects all their choices the total price of the coffee is calculated and displayed.
 
@@ -31,7 +31,10 @@ Project Requirements:
 We were not able to fufill every project requirement with the way we handled this program. There is no polymorphic call, abstract class or arrays. 
 
 The classes used are:
+
 HAS-A relationship:
-IS-A relantionship:
+
+IS-A relationship:
+
 JAVAFX gui includes grid pane and anchor pane. We also used textfield, labels and radio buttons.
 
