@@ -30,11 +30,11 @@ Project Requirements:
 
 We were not able to fufill every project requirement with the way we handled this program. There is no polymorphic call, abstract class or arrays. 
 
-The classes are: PrimaryControl
+The classes are: PrimaryController.java, Drink.java, Application and App.java
 
-HAS-A relationship:
+HAS-A relationship: PrimaryController.java HAS-A Drink.java
 
-IS-A relationship:
+IS-A relationship: Application IS-A App.java
 
 JAVAFX gui includes grid pane and anchor pane. We also used textfield, labels and radio buttons.
 
