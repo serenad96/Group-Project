@@ -16,15 +16,15 @@ Starts with a main screen that asks if you want coffee or tea. From there you ca
 ## Final Project Submission
 Theme:
 
-The theme of the project will be a Cafe Simulator where the user can decide what they would like in their coffee and display the total of all the choices they have decided.
+The theme of the project will be a Cafe Simulator where the user can choose how they would like their coffee. The total price of their drink will be displayed once they have chosen all their selections. 
 
 Feature List:
 
-The program shows the menu of what the user can add to their coffee. After the user adds all the choices the total price of the coffee is calculated and displayed.
+The program shows the menu of what the user can add to their coffee. The user will first select the size of their coffee, then select either iced or hot and lastly choose the type of dairy they would like. After the user selects all their choices the total price of the coffee is calculated and displayed.
 
 Issues and future work:
 
-The price calculation is not working as of now, so when a choice is pressed the total is not displaying. We used the "on action" feature in SceneBuilder to assign each button to a method. However, it returns a "NullPointerException" error once the buttons are clicked. We are not sure how to fix it. We would like for the total price of the coffee to be displayed. To improve our program would like to add more choices for the user.
+The price calculation is not working as of now, so when a choice is selected the total is not displayed. We used the "on action" feature in SceneBuilder to assign each button to a method. However, it returns a "NullPointerException" error once the buttons are clicked. We are not sure how to fix it. We would like for the total price of the coffee to be displayed. To improve our program would like to add more choices for the user.
 
 Project Requirements:
 
