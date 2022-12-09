@@ -30,7 +30,7 @@ Project Requirements:
 
 We were not able to fufill every project requirement with the way we handled this program. There is no polymorphic call, abstract class or arrays. 
 
-The classes used are:
+The classes are: PrimaryControl
 
 HAS-A relationship:
 
