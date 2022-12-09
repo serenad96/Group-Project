@@ -24,7 +24,7 @@ The program shows the menu of what the user can add to their coffee. The user wi
 
 Issues and future work:
 
-The price calculation is not working as of now, so when a choice is selected the total is not displayed. We used the "on action" feature in SceneBuilder to assign each button to a method. However, it returns a "NullPointerException" error once the buttons are clicked. We are not sure how to fix it. We would like for the total price of the coffee to be displayed. To improve our program would like to add more choices for the user.
+The price calculation is not working as of now, so when a choice is selected the total is not displayed. We used the "on action" feature in SceneBuilder to assign each button to a method. However, it returns a "NullPointerException" error once the buttons are clicked. We are not sure how to fix it. We would like for the total price of the coffee to be displayed. To improve our program we would like to add more options to the menu for the user to choose.
 
 Project Requirements:
 
