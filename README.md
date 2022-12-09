@@ -38,3 +38,8 @@ IS-A relationship:
 
 JAVAFX gui includes grid pane and anchor pane. We also used textfield, labels and radio buttons.
 
+##Screenshots
+
+![Screenshot 1](https://user-images.githubusercontent.com/112510361/206627409-5e4da452-179b-40e8-b955-77a859158aaf.png)
+![Screenshot 2 Null Pointer Exception](https://user-images.githubusercontent.com/112510361/206627421-06ade940-b097-424b-8e1d-b8436de8330b.png)
+
