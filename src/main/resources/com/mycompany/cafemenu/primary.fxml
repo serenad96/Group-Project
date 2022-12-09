@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.ToggleGroup?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox id="LabelTotal" alignment="TOP_CENTER" prefHeight="491.0" prefWidth="512.0" spacing="20.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.cafemenu.PrimaryController">
+   <children>
+      <Label id="Label_Menu" text="Cafe Java" textFill="#c213c2" underline="true">
+         <font>
+            <Font name="Lucida Calligraphy Italic" size="35.0" />
+         </font></Label>
+      <VBox alignment="TOP_CENTER" prefHeight="200.0" prefWidth="100.0">
+         <children>
+            <Label id="Label_Size" text="Select Size:" underline="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton id="Button_Small" mnemonicParsing="false" onAction="#sizeClicked" text="Small ($2.50)">
+               <toggleGroup>
+                  <ToggleGroup fx:id="Group1" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton id="Button_Medium" mnemonicParsing="false" onAction="#sizeClicked" text="Medium ($3.00)" toggleGroup="$Group1" />
+            <RadioButton id="Button_Large" mnemonicParsing="false" onAction="#sizeClicked" text="Large ($3.50)" toggleGroup="$Group1" />
+            <Label id="Label_Temp" text="Iced or Hot:" underline="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton id="Button_Hot" mnemonicParsing="false" text="Hot">
+               <toggleGroup>
+                  <ToggleGroup fx:id="Group2" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton id="Button_Iced" mnemonicParsing="false" text="Iced (+$0.50)" toggleGroup="$Group2" />
+            <Label id="Label_Dairy" text="Select Dairy:" underline="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <RadioButton id="Button_None" mnemonicParsing="false" text="None">
+               <toggleGroup>
+                  <ToggleGroup fx:id="Group3" />
+               </toggleGroup>
+            </RadioButton>
+            <RadioButton id="Button_Milk" mnemonicParsing="false" text="Milk" toggleGroup="$Group3" />
+            <RadioButton id="Button_Almond" mnemonicParsing="false" text="Almond (+$0.50)" toggleGroup="$Group3" />
+            <RadioButton id="Button_Coconut" mnemonicParsing="false" text="Coconut (+$0.75)" toggleGroup="$Group3" />
+         </children>
+      </VBox>
+      <Label id="Label_Total" prefHeight="16.0" prefWidth="114.0" text="Total: $0.00">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <opaqueInsets>
+      <Insets />
+   </opaqueInsets>
+</VBox>
