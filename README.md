@@ -28,4 +28,10 @@ The price calculation is not working as of now, so when a choice is selected the
 
 Project Requirements:
 
-We were not able to fufill every project requirement with the way we handled this program. There is no polymorphic call or abstract class.
+We were not able to fufill every project requirement with the way we handled this program. There is no polymorphic call, abstract class or arrays. 
+
+The classes used are:
+HAS-A relationship:
+IS-A relantionship:
+JAVAFX gui includes grid pane and anchor pane. We also used textfield, labels and radio buttons.
+
